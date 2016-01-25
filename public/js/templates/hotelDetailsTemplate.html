@@ -1,0 +1,45 @@
+<div class="panel panel-info" id="Addemployee">
+	<div class="panel-heading col-xs-12">
+	<a href="#" class="close" id="closereservationform">X</a>
+<div class="panel-title" style="float:left">Reservation Details</div>
+
+</div>
+	<div class="panel-body"> 
+	<div>
+	<span><strong>Hotel Name:</strong><%= hotel.name%></span><br>
+	<span><strong>Hotel Address:</strong><%= hotel.address%></span><br>
+	<span><strong>Hotel City:</strong><%= hotel.city%></span><br>
+	<span><strong>Rate:</strong><%= hotel.rate%></span><br>
+	</div>
+	<div>
+	<form class="form-horizontal" role="form">
+	<div class="form-group">
+	<label class="control-label col-sm-2" for="ID">Email:</label>
+	<div class="col-sm-10">
+	<input type="text" class="form-control" id="email" >
+	</div>
+	</div>
+	<div class="form-group">
+	<label class="control-label col-sm-2" for="ID">Check-In Dates:</label>
+	<div class="col-sm-10">
+	<input type="datetime-local" class="form-control" id="in" >
+	</div>
+	</div>
+	<div class="form-group">
+	<label class="control-label col-sm-2" for="ID">Check-Out Dates:</label>
+	<div class="col-sm-10">
+	<input type="datetime-local" class="form-control" id="out" >
+	</div>
+	<div class="form-group">
+	<div class="col-sm-10">
+	<div class="col-sm-3">&nbsp;</div>
+	<div class="col-sm-7">
+	<button type="button" class="btn btn-success" id="bookHotel">Book</button>
+	</div>
+	</div>
+	</div>
+	</div>
+	</form>
+	</div>
+	</div>
+	</div>
